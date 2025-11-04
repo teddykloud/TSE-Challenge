@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="KeypadPhoneSolution/KeypadPhoneSolution.csproj" />
+  <Project Path="KeypadPhoneTests/KeypadPhoneTests.csproj" />
+</Solution>

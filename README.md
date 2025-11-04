@@ -1,3 +1,5 @@
+# TSE-Challenge
+Solution for the C# Coding Challenge for the Technical Support Engineer role.
 TSE C# Coding Challenge
 This repository contains my solution for the Technical Support Engineer C# coding challenge.
 
@@ -25,7 +27,7 @@ Readability: A local Action helper function (processBuffer) is used to contain t
 Robustness: The solution gracefully handles null and empty inputs. It also includes a final check after the loop to process any trailing key presses, making it stable even if the input string does not end with the '#' (send) key.
 
 How to Run & Test
-This solution is structured as a .NET 10 Solution (.sln) containing a class library (OldPhonePadSolution) and a corresponding xUnit test project (OldPhonePadTests).
+This solution is structured as a .NET 6 Solution (.sln) containing a class library (KeypadPhoneSolution) and a corresponding xUnit test project (KeypadPhoneTests).
 
 The test project contains a comprehensive suite of tests, including all examples from the prompt plus numerous edge cases.
 
@@ -40,5 +42,4 @@ Run the tests: dotnet test
 You will see a "Test Run Successful" message confirming the solution's correctness.
 
 Note on Example 4
-The fourth example in the prompt, OldPhonePad("8 88777444666*664#") => ?????, appears to contain a typo. Based on a literal interpretation of the rules, the correct output is "TURING". My solution correctly implements these rules, and the test case [InlineData("8 88777444666*664#", "TURING")] confirms this behavior.# TSE-Challenge
-Solution for the C# Coding Challenge for the Technical Support Engineer role.
+The fourth example in the prompt, KeypadPhone("8 88777444666*664#") => ?????, appears to contain a typo. Based on a literal interpretation of the rules, the correct output is "TURING". My solution correctly implements these rules, and the test case [InlineData("8 88777444666*664#", "TURING")] confirms this behavior.
